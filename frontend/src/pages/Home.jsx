@@ -105,9 +105,9 @@ const Home = () => {
         )}
 
         {!role && (
-          <span onClick={() => navigate("/")}
+          <span onClick={() => navigate("/login")}
           className="cursor-pointer">
-            Login
+            Dashboard
           </span>
         )}
       </div>
