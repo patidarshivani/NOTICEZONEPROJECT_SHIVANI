@@ -100,8 +100,8 @@ You can do this in two ways:
 ---
 
 ## 🔹 Frontend (React)
-      git clone https://github.com/your-username/noticezone-frontend
-      cd noticezone-frontend
+      git clone https://github.com/patidarshivani/NOTICEZONEPROJECT_SHIVANI.git
+      cd frontend
       npm install
       npm run dev
 
