@@ -129,4 +129,24 @@ You can do this in two ways:
 **Shivani Patidar**  
 
 - GitHub: https://github.com/patidarshivani  
-- LinkedIn: https://linkedin.com/in/shivani-patidar-067b50228  
+- LinkedIn: https://linkedin.com/in/shivani-patidar-067b50228
+
+---
+## 📸 Screenshots
+
+### Login Page
+![Login Screen](./assets/Screenshot(2904).png)
+
+### Register Page
+![Register Screen](./assets/Screenshot(2905).png)
+
+### Home Page
+![Home Screen](./assets/NoticeZone_Home_page.png)
+
+### Professor Dashboard
+![Dashboard](./assets/Professor_dashboard.png)
+
+### Student Dashboard
+![Dashboard](./assets/Student_dashboard.png)
+
+
