@@ -135,16 +135,17 @@ You can do this in two ways:
 ## 📸 Screenshots
 
 ### Login Page
-![Login Screen](./assets/Screenshot(2904).png)
+![Login Screen](./assets/Login_page.png)
 
 ### Register Page
-![Register Screen](./assets/Screenshot(2905).png)
+![Register Screen](./assets/Register_page.png)
 
 ### Home Page
 ![Home Screen](./assets/NoticeZone_Home_page.png)
 
 ### Professor Dashboard
 ![Dashboard](./assets/Professor_dashboard.png)
+
 
 ### Student Dashboard
 ![Dashboard](./assets/Student_dashboard.png)
