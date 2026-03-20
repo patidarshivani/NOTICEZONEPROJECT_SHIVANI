@@ -96,26 +96,38 @@ You can do this in two ways:
     ```
 * **Option B (Using IntelliJ/Eclipse):**
     Right-click on your project in the sidebar, go to **Maven**, and click **"Reload Project"** or **"Update Project"**. This will download all the JAR files needed for the project.
-### 🔹 Frontend (React)
-
-```bash
-git clone https://github.com/patidarshivani/NOTICEZONEPROJECT_SHIVANI/frontend
-cd frontend
-npm install
-npm run dev
 
 ---
 
-## 🔹 2️⃣ Add MySQL configuration (IMPORTANT)
+## 🔹 Frontend (React)
+      git clone https://github.com/your-username/noticezone-frontend
+      cd noticezone-frontend
+      npm install
+      npm run dev
 
-Below backend section (or inside it), add:
+---
 
-```md
-### Configure Database
+## 📦 Tech Stack
 
-Update `application.properties`:
+- Java  
+- Spring Boot  
+- Spring Security (JWT)  
+- MySQL  
+- React.js  
+- Axios  
 
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/your_db_name
-spring.datasource.username=your_username
-spring.datasource.password=your_password
+
+## 💡 Future Improvements
+
+- Email notifications for new notices  
+- File upload support for notices  
+- Pagination and search functionality  
+- Deployment using AWS / Docker
+
+
+## 👤 Author
+
+**Shivani Patidar**  
+
+- GitHub: https://github.com/patidarshivani  
+- LinkedIn: https://linkedin.com/in/shivani-patidar-067b50228  
