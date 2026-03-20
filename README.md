@@ -68,24 +68,41 @@ A full-stack web application designed to manage and distribute college notices e
 ---
 
 
-### 🔹 Backend (Spring Boot)
+## 🚀 Installation & Setup
 
-```bash
-git clone https://github.com/patidarshivani/NOTICEZONEPROJECT_SHIVANI/backend
-cd backend
+### 🔹 1. Backend (Spring Boot)
 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/patidarshivani/NOTICEZONEPROJECT_SHIVANI.git
+   cd backend
+
+2. **Configure MySQL Database** Open `src/main/resources/application.properties` and update the following lines with your local MySQL credentials:
+   ```properties
+   spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
+   spring.datasource.username=your_username
+   spring.datasource.password=your_password
+   # This line automatically creates the tables in your database
+   spring.jpa.hibernate.ddl-auto=update
 ---
 
+### 3. Install Dependencies & Build
+You can do this in two ways:
+
+* **Option A (Using Terminal):**
+    Run this command in the `backend` folder:
+    ```bash
+    mvn clean install
+    ```
+* **Option B (Using IntelliJ/Eclipse):**
+    Right-click on your project in the sidebar, go to **Maven**, and click **"Reload Project"** or **"Update Project"**. This will download all the JAR files needed for the project.
 ### 🔹 Frontend (React)
 
 ```bash
-git clone https://github.com/your-username/noticezone-frontend
-cd noticezone-frontend
+git clone https://github.com/patidarshivani/NOTICEZONEPROJECT_SHIVANI/frontend
+cd frontend
 npm install
 npm run dev
-
-
-👉 This will automatically appear as a new section.
 
 ---
 
