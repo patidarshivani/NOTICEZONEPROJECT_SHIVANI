@@ -84,9 +84,8 @@ A full-stack web application designed to manage and distribute college notices e
    spring.datasource.password=your_password
    # This line automatically creates the tables in your database
    spring.jpa.hibernate.ddl-auto=update
----
 
-### 3. Install Dependencies & Build
+#### 3. Install Dependencies & Build
 You can do this in two ways:
 
 * **Option A (Using Terminal):**
