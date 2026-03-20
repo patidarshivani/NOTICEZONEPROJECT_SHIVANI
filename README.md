@@ -73,3 +73,32 @@ A full-stack web application designed to manage and distribute college notices e
 ```bash
 git clone https://github.com/patidarshivani/NOTICEZONEPROJECT_SHIVANI/backend
 cd backend
+
+---
+
+### 🔹 Frontend (React)
+
+```bash
+git clone https://github.com/your-username/noticezone-frontend
+cd noticezone-frontend
+npm install
+npm run dev
+
+
+👉 This will automatically appear as a new section.
+
+---
+
+## 🔹 2️⃣ Add MySQL configuration (IMPORTANT)
+
+Below backend section (or inside it), add:
+
+```md
+### Configure Database
+
+Update `application.properties`:
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/your_db_name
+spring.datasource.username=your_username
+spring.datasource.password=your_password
